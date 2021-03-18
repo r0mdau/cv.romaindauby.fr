@@ -13,6 +13,8 @@ Expert des technologies  qui propulsent internet avec 10+ années d'expériences
 
 Entraîneur en cyclisme sur route et piste et pratique la natation et la randonnée en haute montagne. 
 
+Je suis à la recherche d'un poste de leader dans l'ingénierie de fiabilité de site ou de responsable technique ou de management d'équipe technique appliquant les méthodologies DevOps.
+
 ## Expériences
 
 ### Leader Technique DevOps chez Cdiscount

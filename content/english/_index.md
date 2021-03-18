@@ -13,6 +13,8 @@ Expert in technologies that propel the internet with 10+ years of experience, co
 
 Coach in road and track cycling, practice swimming and hiking in high mountains. 
 
+I am looking for a leadership position in site reliability engineering or technical manager or technical team management applying DevOps principles.
+
 ## Professionnal experiences
 
 ### DevOps Technical Leader at Cdiscount
