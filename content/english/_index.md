@@ -25,15 +25,26 @@ Pincipal DevOps within the IT Customer Experience Department (120 software engin
 * mobile applications
 * order tunnel : [order.cdiscount.com](https://order.cdiscount.com)
 * customer zone : [clients.cdiscount.com](https://clients.cdiscount.com)
+* customer relationship management (teleconsulting)
 
 Role of infrastructure technical manager: close collaboration with the main Technical manager of the department and the Architecture department (150 employees) including product teams (pooled) and Ops teams.
 
 Main site reliability engineer on the Linux park.
 Cdiscount production is around 5,000 physical servers spread over 2 data centers in France, a CDN with 6 points of presence and projects in the Azure cloud.
 
+##### Projects
+* microservice architecture migration of the mobile site running on mesos marathon to kubernetes (Java 8 -> 11, NodeJS 8 -> 12, Docker, Kubernetes, Prometheus, Elasticsearch)
+* complete automation of loadtests in the application deployment cycle (Swagger codegen, jMeter, Azure DevOps)
+* creation of a reverse-proxy able to manage more than 30k rules of redirects and rewrites with hot reloading of the configuration via API (OpenResty, lua, c++)
+* automate recurring work by developing programs in Go and Python
+* describe the technical architectures and manage the infrastructure capacity planning
+* maintain and improve CICD pipelines for java, .net core, NodeJs and Go projects.
+* creation of a reverse proxy cache backend and reverse proxy cache sidecar in order to absorb the load of the strong commercial periods of the site
+
 ##### Skills
 * training of developers on Ops, Perf and Security aspects
-* N2 on-call on the Linux park: the CDN, the Kubernetes (formerly Mesos / Marathon), Ceph, MongoDB, Cassandra, CouchBase, Elasticsearch, Prometheus (Thanos), RabbitMQ, Kafka, Mapr, MediaDelivery Platform clusters.
+* recruitment DevOps profile (company-wide)
+* N2 on-call on the Linux park : system administration, debug full architecture. Technologies : CDN (Varnish, Nginx, BotDetection), the Kubernetes (formerly Mesos / Marathon), Ceph, Varnish, MongoDB, Cassandra, CouchBase, Elasticsearch, Prometheus (Thanos), RabbitMQ, Kafka, Mapr, MediaDelivery Platform clusters.
 * continuous DevPerfOps performance and continuous DevSecOps security premises on projects: Java (8, 10, 11), .net core (2.1, 3.1), NodeJS (12, 14, 15) : microservices architectures
 * development of "Ops" features such as observability, tracing logging metrics; features "Perf"; debug
 * technical training in the form of recorded webinars

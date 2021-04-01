@@ -26,16 +26,26 @@ Lead DevOps au sein de la Direction IT Expérience Client (120 ingénieurs d'ét
 * applications mobile
 * tunnel de commandes: order.cdiscount.com
 * espace client: clients.cdiscount.com
+* gestion de la relation client (téléconsulting)
 
 Rôle de responsable technique infrastructure : étroite collaboration avec le Responsable Technique principal de la direction et la Direction Architecture (150 collaborateurs) comprenant des équipes produits (mutualisés) et les équipes Ops.
 
 Principal ingénieur fiabilité de site sur le parc Linux.
 La production Cdiscount compte 5000 serveurs physiques répartis dans 2 datacentres en France, un CDN avec 6 points de présences, et des projets dans le cloud Azure.
 
+##### Projets
+* migration architecture microservice du site mobile du cluster mesos marathon sur kubernetes (Java 8 -> 11, NodeJS 8 -> 12, Docker, Kubernetes, Prometheus, Elasticsearch)
+* automatisation complète des tirs de charges dans le cycle de déploiement des applications (Swagger codegen, jMeter, Azure DevOps)
+* création d'un reverse-proxy capable de gérer + de 30k règles de redirections et de réécritures avec rechargement à chaud de la configuration via API (OpenResty, lua, c++)
+* automatiser le travail récurrent en développant des programmes en Go et en Python
+* décrire les architectures techniques et gérer le planning de capacité des infrastructures
+* maintenir et améliorer les pipelines de CICD pour les projets java, .net core, NodeJs et Go.
+* création d'un reverse proxy cache backend et reverse proxy cache sidecar afin d'absorber le load des périodes commerciales fortes du site
+
 ##### Compétences
 * formation des développeurs sur les aspects Ops, Perf et Sécu
 * recrutement profil DevOps (échelle entreprise)
-* astreinte N2 sur le parc Linux : CDN, clusters Kubernetes (anciennement Mesos / Marathon), Ceph, MongoDB, Cassandra, CouchBase, Elasticsearch, Prometheus (Thanos), RabbitMQ, Kafka, Mapr, MediaDelivery Platform.
+* astreinte N2 sur le parc Linux : administration système, debug architecture globale. Technologies : CDN (Varnish Nginx BotDetection), clusters Kubernetes (anciennement Mesos / Marathon), Ceph, Varnish, MongoDB, Cassandra, CouchBase, Elasticsearch, Prometheus (Thanos), RabbitMQ, Kafka, Mapr, MediaDelivery Platform.
 * performance continue DevPerfOps et prémisses sécurité continue DevSecOps sur projets : Java (8, 10, 11), .net core (2.1, 3.1), NodeJS (12, 14, 15) : architectures microservices
 * développement de features "Ops" de type observability, tracing logging metrics ; features "Perf" ; debug
 * formations techniques sous forme de webinar enregistrés
