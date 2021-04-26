@@ -5,6 +5,7 @@ disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 math = false          # enable KaTeX (https://katex.org/) globally
 googleAnalytics = "262396386"  # add your tracking id
+enableRobotsTXT = true
 
 [params]
   author = "Romain Dauby"
@@ -29,13 +30,11 @@ defaultContentLanguage = "en"
   [languages.en]
     description = "Detailled CV, expert in IT, DevOps, learn more about me"
     weight = 1
-    contentDir = "content/english"
     [languages.en.params]
       linkedin = "https://www.linkedin.com/in/romaindauby/?locale=en_US"
   [languages.fr]
     description = "CV détaillé, expert en informatique, DevOps"
     weight = 2
-    contentDir = "content/french"
     [languages.fr.params]
       linkedin = "https://www.linkedin.com/in/romaindauby/?locale=fr_FR"
 

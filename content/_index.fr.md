@@ -9,9 +9,9 @@ title = "Romain Dauby Lead DevOps, Architect, CTO"
 {{< figure class="avatar" src="https://www.gravatar.com/avatar/586e9d363077c0a9572652c9f5a4fcf3" >}}
 
 Passionné des technologies de l'information et avant tout des organisations humaines qui les opèrent, leader dans l'âme.
-Expert des technologies  qui propulsent internet avec 10 années d'expériences, à l'aise sur de multiples domaines : architecture, génie logiciel, ingénierie de fiabilité, sécurité, performance, administration systèmes et réseaux ; à grande échelle.
+Expert des technologies  qui propulsent internet avec 8 années d'expériences, à l'aise sur de multiples domaines : architecture, génie logiciel, ingénierie de fiabilité, sécurité, performance, administration systèmes et réseaux ; à grande échelle.
 
-Entraîneur en cyclisme sur route et piste et pratique la natation et la randonnée en haute montagne. 
+Entraîneur en cyclisme sur route et piste et pratique la natation et la randonnée en montagne. 
 
 ## Expériences
 
@@ -21,34 +21,33 @@ Entraîneur en cyclisme sur route et piste et pratique la natation et la randonn
 
 ##### Missions
 
-Lead DevOps au sein de la Direction IT Expérience Client (120 ingénieurs d'études) qui est en charge de :
-* site PC et mobile [www.cdiscount.com](https://www.cdiscount.com)
-* applications mobile
+Lead DevOps au sein de la Direction IT Expérience Client (120 ingénieurs d'études) avec rôle de responsable infrastructure. Périmètre de la direction :
+* applications mobiles, site PC et site mobile [www.cdiscount.com](https://www.cdiscount.com)
 * tunnel de commandes: order.cdiscount.com
 * espace client: clients.cdiscount.com
-* gestion de la relation client (téléconsulting)
+* gestion de la relation client (téléconsulting, après achat)
 
-Rôle de responsable technique infrastructure : étroite collaboration avec le Responsable Technique principal de la direction et la Direction Architecture (150 collaborateurs) comprenant des équipes produits (mutualisés) et les équipes Ops.
-
-Principal ingénieur fiabilité de site sur le parc Linux.
+Ingénieur de fiabilité de site sur le parc Linux.
 La production Cdiscount compte 5000 serveurs physiques répartis dans 2 datacentres en France, un CDN avec 6 points de présences, et des projets dans le cloud Azure.
 
 ##### Projets
 * migration architecture microservice du site mobile du cluster mesos marathon sur kubernetes (Java 8 -> 11, NodeJS 8 -> 12, Docker, Kubernetes, Prometheus, Elasticsearch)
 * automatisation complète des tirs de charges dans le cycle de déploiement des applications (Swagger codegen, jMeter, Azure DevOps)
-* création d'un reverse-proxy capable de gérer + de 30k règles de redirections et de réécritures avec rechargement à chaud de la configuration via API (OpenResty, lua, c++)
+* industrialisation d'un reverse-proxy capable de gérer + de 30k règles de redirections et de réécritures avec rechargement à chaud de la configuration via API (OpenResty, lua, c++)
 * automatiser le travail récurrent en développant des programmes en Go et en Python
 * décrire les architectures techniques et gérer le planning de capacité des infrastructures
 * maintenir et améliorer les pipelines de CICD pour les projets java, .net core, NodeJs et Go.
 * création d'un reverse proxy cache backend et reverse proxy cache sidecar afin d'absorber le load des périodes commerciales fortes du site
 
 ##### Compétences
-* formation des développeurs sur les aspects Ops, Perf et Sécu
+* formation (+ webinars) des développeurs sur les aspects Ops, Perf et Sécu
+* performance continue DevPerfOps et prémisses sécurité continue DevSecOps sur projets : Java (8, 10, 11), .net core (2.1, 3.1), NodeJS (12, 14, 15) : architectures microservices, kubernetes
+* construction et optimisation de pipelines CICD (as code) sur Azure Devops et Jenkins
+* IaaS cloud Azure avec Terraform
+* développement de features "Ops" de type observability, tracing logging metrics ; features "Perf" ; debug
+* troubleshooting incidents de production sur toute l'architecture, de CloudProtect (protection DDoS Acorus Networks - Volterra - F5) aux bases de données
 * recrutement profil DevOps (échelle entreprise)
 * astreinte N2 sur le parc Linux : administration système, debug architecture globale. Technologies : CDN (Varnish Nginx BotDetection), clusters Kubernetes (anciennement Mesos / Marathon), Ceph, Varnish, MongoDB, Cassandra, CouchBase, Elasticsearch, Prometheus (Thanos), RabbitMQ, Kafka, Mapr, MediaDelivery Platform.
-* performance continue DevPerfOps et prémisses sécurité continue DevSecOps sur projets : Java (8, 10, 11), .net core (2.1, 3.1), NodeJS (12, 14, 15) : architectures microservices
-* développement de features "Ops" de type observability, tracing logging metrics ; features "Perf" ; debug
-* formations techniques sous forme de webinar enregistrés
 * animateur communauté DevOps (échelle entreprise)
 
 ### Ingénieur Architecte chez Orange Business Services
