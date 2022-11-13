@@ -1,5 +1,5 @@
 +++
-title = "Romain Dauby Lead DevOps, Architect, CTO"
+title = "Romain Dauby Tech Lead, Architect, CTO"
 +++
 
 [Version française](https://cv.romaindauby.fr/fr/)
@@ -8,53 +8,85 @@ title = "Romain Dauby Lead DevOps, Architect, CTO"
 
 {{< figure class="avatar" src="https://www.gravatar.com/avatar/586e9d363077c0a9572652c9f5a4fcf3" >}}
 
-Passionate about information technologies and above all about the human organizations that operate them, leader at heart.
-Expert in technologies that propel the internet with 8 years of experience, comfortable in multiple fields : functional and technical architectures, software engineering, reliability engineering, security (off/def), performance, systems and networks administration : at scale.
+Passionate about online information technologies, distributed sustems and the human organizations that operate them.
 
-Coach in road and track cycling, practice swimming and hiking in mountains.
+With my 9 years of professional experience, I have acquired expertise in web technologies, comfortable in multiple fields: architecture, software engineering, reliability engineering, distributed systems, security, performance, system and network administration. My ability to take a step back allowed me to develop strong skills in managing complex projects, managing software development teams, managing budgets and managing products.
+
+My hobbies: former road and track cycling coach and enjoys swimming, running and mountain hiking.
 
 ## Professionnal experiences
 
-### DevOps Technical Leader at Cdiscount
+### Technical Lead at Ubisoft
 
-#### From 02/2019 to today
+#### 06/2021 to today
 
 ##### Missions
-Lead DevOps within the IT Customer Experience Department (120 software engineers) with the role of technical infrastructure manager. Scope of the department :
-* mobile applications, desktop and mobile site [www.cdiscount.com](https://www.cdiscount.com)
-* order tunnel : [order.cdiscount.com](https://order.cdiscount.com)
-* customer zone : [clients.cdiscount.com](https://clients.cdiscount.com)
-* customer relationship management (teleconsulting, after purchase)
-
-Site reliability engineer on the Linux park.
-Cdiscount production is around 5,000 physical servers spread over 2 data centers in France, a CDN with 6 points of presence and projects in the Azure cloud.
+Technical lead of the five SRE teams within Ubisoft Online Services (34 software engineers / site reliability). Our mission is to build products, technologies and practices to observe, secure, connect, scale software and distributed systems. Technical perimeters of each team:
+* logging, database, API Management
+* monitoring, metrics, alerts, dashboards, onCall
+* tracing, healthchecks, dependency graphs, frontend, incident management
+* blue team, dev security tools, DevSecOps, automation
+* green team, FinOps
 
 ##### Projects
-* microservice architecture migration of the mobile site running on mesos marathon to kubernetes (Java 8 -> 11, NodeJS 8 -> 12, Docker, Kubernetes, Prometheus, Elasticsearch)
-* complete automation of loadtests in the application deployment cycle (Swagger codegen, jMeter, Azure DevOps)
-* industrialization of a reverse-proxy able to manage more than 30k rules of redirects and rewrites with hot reloading of the configuration via API (OpenResty, lua, c++)
+* responsible for the achievements, decisions and technical architectures of the SRE teams, our direct customers are the developers of the other departments on the online platform and sometimes game productions
+* give a technological vision over 3 years, involving senior engineers, managers and directors
+* CTO community champion for Platform Services leadership
+* recovery of the technical scope of the architectures in place allowing to observe the distributed systems of the teams (ECS, EKS, on-prem k8s / VM)
+* creation of the architecture committee, takeover of the community of experts
+* building observability products, we unify our telemetry behind the OpenTelemetry project, with open-source contributions
+* creation of an expert community for the cloud and hybrid network with on-premise + China and implementation of infra as code projects
+* construction of tools to collect data then observe through dashboards the level of security of software (local fuzzing, SAST), stacklines (Trivy, SonarQube) with detection of secrets, and at runtime (AWS Security hub, in house SIEM, EDR)
+* evaluate market solutions for using managed services
+
+##### Skills
+* software development in Go
+* decision architecture document for our development practices, organization of code and contributions, inner sourcing
+* platforms: Kubernetes, Prometheus, AlertManager, Thanos, Grafana, Tempo, Loki, Mimir, OpenTelemetry, OpenSearch, Elasticsearch, Fluentd
+* AWS, AWS China and Ubisoft on-premises hosting
+* infra as code Terraform, Terragrunt and development of kubernetes operators to manage cloud objects: reduction of the web
+* relationship with observability software vendors
+
+### Technical Lead (DevOps) at Cdiscount
+
+#### From 02/2019 to 05/2021
+
+##### Missions
+Technical Lead (DevOps practices) within the Customer Experience IT Department (120 software engineers) with the role of infrastructure technical manager. Management scope:
+* mobile applications, PC site and mobile site [www.cdiscount.com](https://www.cdiscount.com)
+* order tunnel: order.cdiscount.com
+* customer area: customers.cdiscount.com
+* customer relationship management (teleconsulting, after purchase)
+
+I also combined a site reliability engineering role on the Linux estate.
+Cdiscount production has 5,000 physical servers distributed in 2 data centers in France, a CDN with 6 points of presence, and projects in the Azure cloud.
+
+##### Projects
+* microservice architecture migration of the mobile site of the mesos marathon cluster on kubernetes (Java 8 -> 11, NodeJS 8 -> 12, Docker, Kubernetes, Prometheus, Elasticsearch)
+* full automation of load tests in application deployment cycle (Swagger codegen, jMeter, Azure DevOps)
+* R&D reverse-proxy capable of managing more than 30k redirect and rewrite rules with hot reloading of the configuration via API (OpenResty, lua, c++)
 * automate recurring work by developing programs in Go and Python
-* describe the technical architectures and manage the infrastructure capacity planning
+* describe technical architectures and manage infrastructure capacity planning
 * maintain and improve CICD pipelines for java, .net core, NodeJs and Go projects.
 * creation of a reverse proxy cache backend and reverse proxy cache sidecar in order to absorb the load of the strong commercial periods of the site
 
 ##### Skills
-* training (+ webinars) of developers on Ops, Perf and Security aspects
-* continuous DevPerfOps performance and continuous DevSecOps security premises on projects: Java (8, 10, 11), .net core (2.1, 3.1), NodeJS (12, 14, 15) : microservices architectures
-* construction and optimization of CICD pipelines (as code) on Azure Devops and Jenkins
-* IaaS Cloud Azure with Terraform
+* training (+ webinars) for developers on Ops, Perf and DevSecOps aspects
+* continuous performance and DevSecOps premises on projects: Java (8, 10, 11), .net core (2.1, 3.1), NodeJS (12, 14, 15): microservices architectures, kubernetes
+* building and optimizing CICD pipelines (as code) on Azure Devops and Jenkins
+* Azure cloud IaaS with Terraform
 * development of "Ops" features such as observability, tracing logging metrics; features "Perf"; debug
-* troubleshooting production incidents on the entire architecture, from CloudProtect (Acorus Networks DDoS protection - Volterra - F5) to databases
-* recruitment DevOps profile (company-wide)
-* N2 on-call on the Linux park : system administration, debug full architecture. Technologies : CDN (Varnish, Nginx, BotDetection), the Kubernetes (formerly Mesos / Marathon), Ceph, Varnish, MongoDB, Cassandra, CouchBase, Elasticsearch, Prometheus (Thanos), RabbitMQ, Kafka, Mapr, MediaDelivery Platform clusters.
-* DevOps community facilitator (company scale)
+* troubleshooting production incidents on all architecture, from CloudProtect (DDoS protection Acorus Networks - Volterra - F5) to databases
+* DevOps profile recruitment (enterprise scale)
+* N2 on-call duty on the Linux fleet: system administration, global architecture debug. Technologies: CDN (Varnish Nginx BotDetection), Kubernetes clusters (formerly Mesos / Marathon), Ceph, Varnish, MongoDB, Cassandra, CouchBase, Elasticsearch, Prometheus (Thanos), RabbitMQ, Kafka, Mapr, MediaDelivery Platform.
+* DevOps community manager (enterprise scale)
 
 
 ### Architect Engineer at Orange Business Services
 
 #### From 07/2018 to 02/2019
 
-Promotion to the post of Architect engineer at the Orange Applications for Business IT intern department (team of 30 employees).
+Architect engineer at the Orange Applications for Business IT intern department (team of 30 employees).
 
 ##### Missions
 Interconnect the tools of the business departments and those of the IT department at the architectural levels : Application, Data and Infrastructure.
@@ -65,7 +97,7 @@ Ensure good harmony in complex projects including multiple actors.
 Training and skills development of engineers on the HR movement management product from the local docker image to production servers, monitoring, scalability, security.
 
 ##### Skills
-TOGAF, Git, Docker, VMware, Nginx, Debian, OWASP ZAP, MySQL, SaltStack, PHP, Scrum, DDD, TDD, DAT
+TOGAF, Git, Docker, VMware, Nginx, Debian, OWASP ZAP, jMeter, MySQL, SaltStack, PHP, Scrum, DDD, TDD, DAT
 
 ### Development and production engineer at Orange Business Services
 
@@ -82,7 +114,7 @@ Creation of an in-house tracing tool. With a correlation identifier generated fr
 Advanced industrialization via Dockerfile, docker-compose, unit tests, bdd mock for TU, integration tests, test on mutation tests, Sonar analyzes, ORM, hexagonal architecture, DDD, CICD jenkins and especially piloting of the deployment on environments via git branches, (fork Gitflow in-house) for the employee movement management project.
 
 Regular training of engineers on my work. And force of proposal and sometimes aMOA on ISD projects.
- 
+
 ##### Skills
 Docker, PHP, MySQL, Nginx, Debian, Git, Jenkins, Sonar, Gitlab, Zend Framework, PHPUnit, Slim framework, Elasticsearch, Filebeat, Logstash, Grok, Kiban, Jira, DDD, TDD, DAT, Javascript, jQuery, Doctrine Framework, Bash
 
@@ -95,7 +127,7 @@ Creation from scratch of a web project for managing employee movements : softwar
 
 Strong skills development on DDD in PHP, Docker, Linux Debian, software security and system administration.
 
-First training sessions given on Docker and technical and technological advances in projects built to engineers. 
+First training sessions given on Docker and technical and technological advances in projects built to engineers.
 
 ### System Administrator at Orange Business Services
 
@@ -132,6 +164,8 @@ Development of an algorithm which allows to make text substitutions in order to 
 
 Date | Name | Issuing authority | Reference
 -----|------|-------------------|----------
+03/2022 | CKA: Certified Kubernetes Administrator | Linux Foundation | [LF-6v8ll4ppaz](https://www.credly.com/badges/2d722eac-2e7c-42c3-9696-8f528ef1b230)
+08/2021 | AWS Certified Cloud Practicioner | Amazon Web Services | [aws certified](https://www.credly.com/badges/3b29ad0a-9f36-4d74-8dfc-90e3bb7f6985)
 01/2020 | Certified Ethical Hacker | EC-Council | [ECC0785624139](https://aspen.eccouncil.org/VerifyBadge?&type=certification&a=Cf9l4Imb8Rwmmk8312qAA84bFpDndb6G23VB6JzSWjg=)
 04/2018 | TOGAF 9 Certified | The Open Group | [f12a95be-c8eb-4af8-a074-1acac4a0fedf](https://www.youracclaim.com/badges/f12a95be-c8eb-4af8-a074-1acac4a0fedf/linked_in_profile)
 04/2018 | TOGAF 9 Foundation | The Open Group | [2ed9a9fa-95f3-4822-a1ca-7ba22ae6e17a](https://www.youracclaim.com/badges/2ed9a9fa-95f3-4822-a1ca-7ba22ae6e17a/linked_in_profile)
@@ -152,7 +186,7 @@ Year | Diploma | Title | Mention | School
 
 #### From 10/2017 to today
 
-Member of the office as communication manager and federal diploma club coach issued by the French Cycling Federation.
+Member of the office of [SAM Cyclisme](https://www.samcyclisme.com/en-savoir-plus/encadrement-98707) as communication manager and federal diploma club coach issued by the French Cycling Federation.
 Organizational and logistical assistance on cycle racing, lottery, garage sale type events.
 Association law 1901.
 

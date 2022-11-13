@@ -1,5 +1,5 @@
 +++
-title = "Romain Dauby Lead DevOps, Architect, CTO"
+title = "Romain Dauby Responsable technique, Architecte, CTO"
 +++
 
 [English version](https://cv.romaindauby.fr/en/)
@@ -8,56 +8,90 @@ title = "Romain Dauby Lead DevOps, Architect, CTO"
 
 {{< figure class="avatar" src="https://www.gravatar.com/avatar/586e9d363077c0a9572652c9f5a4fcf3" >}}
 
-Passionné des technologies de l'information et avant tout des organisations humaines qui les opèrent, leader dans l'âme.
-Expert des technologies  qui propulsent internet avec 8 années d'expériences, à l'aise sur de multiples domaines : architecture, génie logiciel, ingénierie de fiabilité, sécurité, performance, administration systèmes et réseaux ; à grande échelle.
+Passionné des technologies de l'information en ligne, des systèmes distribués et des organisations humaines qui les opèrent.
+Avec mes 9 années d'expériences professionnelles, j'ai acquis une expertise des technologies web, à l'aise sur de multiples domaines : architecture, génie logiciel, ingénierie de fiabilité, systèmes distribués, sécurité, performance, administration systèmes et réseaux. Ma capacité à prendre du recule m'a permis de développer de solides compétences dans la gestion de projets complexes, gestion d'équipes de dévelopement logiciel, gestion de budgets et gestion produit.
 
-Entraîneur en cyclisme sur route et piste et pratique la natation et la randonnée en montagne. 
+Mes hobbies: ancien entraîneur en cyclisme sur route et piste et pratique la natation, la course à pied et la randonnée en montagne.
 
 ## Expériences
 
-### Leader Technique DevOps chez Cdiscount
+### Responsable Technique chez Ubisoft
 
-#### 02/2019 à aujourd'hui
+#### 06/2021 à aujourd'hui
 
 ##### Missions
 
-Lead DevOps au sein de la Direction IT Expérience Client (120 ingénieurs d'études) avec rôle de responsable infrastructure. Périmètre de la direction :
+Responsable technique des cinq équipes SRE au sein d'Ubisoft Online Services (34 ingénieurs logiciels / fiabilité de site). Notre mission est de bâtir des produits, des technologies et des pratiques pour observer, sécuriser, connecter, mettre à l'échelle les logiciels et les systèmes distribués. Périmètres techniques de chaque équipe :
+* logging, base de données, API Management
+* monitoring, métriques, alertes, dashboards, onCall
+* tracing, healthchecks, graphes des dépendances, frontend, gestion d'incident
+* blue team, dev outils de sécurité, DevSecOps, automatisation
+* green team, FinOps
+
+
+##### Projets
+* responsable des réalisations, décisions et architectures techniques des équipes SRE, nos clients directs sont les développeurs des autres départements sur la plateforme online et parfois les productions de jeux
+* donner une vision technnologique sur 3 ans, impliquant des ingénieurs séniors, des gestionnaires et des directeurs
+* champion de la communauté des responsables techniques pour la direction Platform Services
+* reprise du périmètre technique des architectures en place permettant d'observer les systèmes distribués des équipes (ECS, EKS, on-prem k8s / VM)
+* création du comité d'architecture, reprise de la communauté des experts
+* construction des produits d'observabilité, nous unifion notre télémétrie derrière le projet OpenTelemetry, avec des contributions open-source
+* création communauté experts pour le réseau dans le cloud et hybride avec on-premise + Chine et mise en place de projets infra as code
+* construction d'outils pour collecter les données puis observer à travers des tableaux de bords le niveau de sécurité des logiciels (local fuzzing, SAST), les pilelines (Trivy, SonarQube) avec détection des secrets, et au runtime (AWS Security hub, in house SIEM, EDR)
+* évaluer les solutions du marché pour utiliser des services managés
+
+##### Compétences
+* développement logiciel en Go
+* document d'architecture de décision pour nos pratiques de développement, d'organisation du code et des contributions, inner sourcing
+* plateformes : Kubernetes, Prometheus, AlertManager, Thanos, Grafana, Tempo, Loki, Mimir, OpenTelemetry, OpenSearch, Elasticsearch, Fluentd
+* hébergement AWS, AWS China et Ubisoft on-premises
+* infra as code Terraform, Terragrunt et développement d'opérateurs kubernetes pour manager les objets du cloud : réduction du toil
+* relation avec les fournisseurs de logiciels d'observabilité
+
+
+### Leader Technique DevOps chez Cdiscount
+
+#### 02/2019 au 05/2021
+
+##### Missions
+
+Lead DevOps au sein de la Direction IT Expérience Client (120 ingénieurs d'études) avec rôle de responsable technique infrastructure. Périmètre de la direction :
 * applications mobiles, site PC et site mobile [www.cdiscount.com](https://www.cdiscount.com)
 * tunnel de commandes: order.cdiscount.com
 * espace client: clients.cdiscount.com
 * gestion de la relation client (téléconsulting, après achat)
 
-Ingénieur de fiabilité de site sur le parc Linux.
+J'ai aussi combiné un rôle d'ingénierie de fiabilité de site sur le parc Linux.
 La production Cdiscount compte 5000 serveurs physiques répartis dans 2 datacentres en France, un CDN avec 6 points de présences, et des projets dans le cloud Azure.
 
 ##### Projets
 * migration architecture microservice du site mobile du cluster mesos marathon sur kubernetes (Java 8 -> 11, NodeJS 8 -> 12, Docker, Kubernetes, Prometheus, Elasticsearch)
 * automatisation complète des tirs de charges dans le cycle de déploiement des applications (Swagger codegen, jMeter, Azure DevOps)
-* industrialisation d'un reverse-proxy capable de gérer + de 30k règles de redirections et de réécritures avec rechargement à chaud de la configuration via API (OpenResty, lua, c++)
+* R&D reverse-proxy capable de gérer + de 30k règles de redirections et de réécritures avec rechargement à chaud de la configuration via API (OpenResty, lua, c++)
 * automatiser le travail récurrent en développant des programmes en Go et en Python
 * décrire les architectures techniques et gérer le planning de capacité des infrastructures
 * maintenir et améliorer les pipelines de CICD pour les projets java, .net core, NodeJs et Go.
 * création d'un reverse proxy cache backend et reverse proxy cache sidecar afin d'absorber le load des périodes commerciales fortes du site
 
 ##### Compétences
-* formation (+ webinars) des développeurs sur les aspects Ops, Perf et Sécu
-* performance continue DevPerfOps et prémisses sécurité continue DevSecOps sur projets : Java (8, 10, 11), .net core (2.1, 3.1), NodeJS (12, 14, 15) : architectures microservices, kubernetes
+* formation (+ webinars) des développeurs sur les aspects Ops, Perf et DevSecOps
+* performance continue et prémisses DevSecOps sur projets : Java (8, 10, 11), .net core (2.1, 3.1), NodeJS (12, 14, 15) : architectures microservices, kubernetes
 * construction et optimisation de pipelines CICD (as code) sur Azure Devops et Jenkins
 * IaaS cloud Azure avec Terraform
 * développement de features "Ops" de type observability, tracing logging metrics ; features "Perf" ; debug
 * troubleshooting incidents de production sur toute l'architecture, de CloudProtect (protection DDoS Acorus Networks - Volterra - F5) aux bases de données
 * recrutement profil DevOps (échelle entreprise)
 * astreinte N2 sur le parc Linux : administration système, debug architecture globale. Technologies : CDN (Varnish Nginx BotDetection), clusters Kubernetes (anciennement Mesos / Marathon), Ceph, Varnish, MongoDB, Cassandra, CouchBase, Elasticsearch, Prometheus (Thanos), RabbitMQ, Kafka, Mapr, MediaDelivery Platform.
-* animateur communauté DevOps (échelle entreprise)
+* gestionnaire communauté DevOps (échelle entreprise)
 
 ### Ingénieur Architecte chez Orange Business Services
 
 #### 07/2018 au 02/2019
 
-Promotion au poste d'ingénieur architecte à la DSI Orange Applications for Business (équipe de 30 collaborateurs).
+Ingénieur architecte à la DSI Orange Applications for Business (équipe de 30 collaborateurs).
 
 ##### Missions
-Interconnecter les outils des directions métiers et ceux de la DSI au niveau des architectures : Application, Data et Infrastructure.
+Interconnecter les outils des directions métiers et ceux de la DSI au niveau des architectures : Application, Data et Infrastructure : modélisation.
 
 Garantir la cohérence et l'automatisation de la construction d'applications depuis le poste du développeur jusqu'en production entre les développeurs et opérateurs.
 Assurer une bonne harmonie dans les projets complexes incluant de multiples acteurs.
@@ -65,12 +99,12 @@ Assurer une bonne harmonie dans les projets complexes incluant de multiples acte
 Formation et montée en compétences des ingénieurs sur le produit de gestion des mouvements RH de l'image docker locale aux serveurs de production, monitoring, scalabilité, sécurité.
 
 ##### Compétences
-DevOps, TOGAF, Git, Docker, VMware, Nginx, Debian, OWASP ZAP, MySQL, SaltStack, PHP, Scrum, DDD, TDD, DAT
+DevOps, TOGAF, Git, Docker, VMware, Nginx, Debian, OWASP ZAP, jMeter, MySQL, SaltStack, PHP, Scrum, DDD, TDD, DAT
 
 ### Ingénieur Développement et Production chez Orange Business Services
 
 #### 08/2015 au 07/2018
-  
+
 ##### Missions
 Améliorer les pratiques des développeurs et des administrateurs système au sein de l'équipe SI composée de 12 collaborateurs.
 
@@ -127,12 +161,14 @@ Développement de plusieurs site dynamiques avec création d'un mini framework /
 
 Petite structure, nous développons, mettons en production et monitorons les sites internet.
 
-Développement d'un algorithme qui permet de faire des substitutions de texte afin de tromper à intervalles précis le robot google et faire croire que le texte change. Intégration de cet algorithme de façon transparente pour que l'éditeur de contenu n'ai qu'à utiliser certaines balises. 
+Développement d'un algorithme qui permet de faire des substitutions de texte afin de tromper à intervalles précis le robot google et faire croire que le texte change. Intégration de cet algorithme de façon transparente pour que l'éditeur de contenu n'ai qu'à utiliser certaines balises.
 
 ## Certifications
 
 Date | Nom | Autorité de certification | Référence
------|------|-------------------|----------
+-----|-----|---------------------------|----------
+03/2022 | CKA: Certified Kubernetes Administrator | Linux Foundation | [LF-6v8ll4ppaz](https://www.credly.com/badges/2d722eac-2e7c-42c3-9696-8f528ef1b230)
+08/2021 | AWS Certified Cloud Practicioner | Amazon Web Services | [aws certified](https://www.credly.com/badges/3b29ad0a-9f36-4d74-8dfc-90e3bb7f6985)
 01/2020 | Certified Ethical Hacker | EC-Council | [ECC0785624139](https://aspen.eccouncil.org/VerifyBadge?&type=certification&a=Cf9l4Imb8Rwmmk8312qAA84bFpDndb6G23VB6JzSWjg=)
 04/2018 | TOGAF 9 Certified | The Open Group | [f12a95be-c8eb-4af8-a074-1acac4a0fedf](https://www.youracclaim.com/badges/f12a95be-c8eb-4af8-a074-1acac4a0fedf/linked_in_profile)
 04/2018 | TOGAF 9 Foundation | The Open Group | [2ed9a9fa-95f3-4822-a1ca-7ba22ae6e17a](https://www.youracclaim.com/badges/2ed9a9fa-95f3-4822-a1ca-7ba22ae6e17a/linked_in_profile)
@@ -151,9 +187,9 @@ Année | Diplôme | Intitulé | Mention | Ecole
 
 ### Entraîneur club cyclisme, route et piste
 
-#### 10/2017 à aujourd'hui
+#### 10/2017 au 01/2022
 
-Membre du bureau en tant que responsable communication et entraîneur club diplôme fédéral délivré par la Fédération Française de cyclisme.
+Membre du bureau du [SAM Cyclisme](https://www.samcyclisme.com/en-savoir-plus/encadrement-98707) en tant que responsable communication et entraîneur club diplôme fédéral délivré par la Fédération Française de cyclisme.
 Aide organisationnelle et logistique sur les événements de type course cycliste, loto, vide grenier.
 Association loi 1901.
 
