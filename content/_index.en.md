@@ -1,5 +1,5 @@
 +++
-title = "Romain Dauby Lead DevOps, Architect, CTO"
+title = "Romain Dauby Tech Lead, Architect, CTO"
 +++
 
 [Version française](https://cv.romaindauby.fr/fr/)
@@ -9,15 +9,44 @@ title = "Romain Dauby Lead DevOps, Architect, CTO"
 {{< figure class="avatar" src="https://www.gravatar.com/avatar/586e9d363077c0a9572652c9f5a4fcf3" >}}
 
 Passionate about information technologies and above all about the human organizations that operate them, leader at heart.
-Expert in technologies that propel the internet with 8 years of experience, comfortable in multiple fields : functional and technical architectures, software engineering, reliability engineering, security (off/def), performance, systems and networks administration : at scale.
+Expert in web technologies with 8 years of experience, comfortable in multiple fields : functional and technical architectures, software engineering, reliability engineering, distributed systems, security (off/def), performance, systems and networks administration.
 
-Coach in road and track cycling, practice swimming and hiking in mountains.
+Coach in road and track cycling, practice swimming, running and hiking in mountains.
 
 ## Professionnal experiences
 
-### DevOps Technical Leader at Cdiscount
+### Technical Lead at Ubisoft
 
-#### From 02/2019 to today
+#### 06/2021 to today
+
+##### Missions
+Technical lead for the four SRE teams within Ubisoft Online Services (34 software / site reliability engineers). Our mission is to build products and practices to observe, secure, scale software and distributed systems. Technical scope of each team:
+* logs, databases, machine learning
+* metrics, alerts, dashboards, onCall
+* traces, healthchecks, frontend
+* blue team, security, automation, incident response
+
+##### Projects
+* responsible for technical achievements and decisions for the medium and long term
+* give a technological vision to follow over 3 years involving multiple external actors to SRE
+* takeover technical scope of the architectures in place allowing to observe the distributed systems of the teams (ECS, EKS, on-prem k8s / VM)
+* takeover from the expert community for architectures
+* creation of an expert community for the cloud and hybrid network with on-premise + China with implementation of infra as code projects
+* construction of future observability products, with unification of exchanges around the OpenTelemetry project, with open-source contributions
+* construction of tools to collect data then observe through dashboards the level of security of software (local fuzzing, SAST), pipelines (Trivy, SonarQube) and at runtime (AWS Security hub, in house SIEM, EDR )
+* evaluate market solutions for using managed services
+
+##### Skills
+* development in Go
+* architecture document for our development practices, organization of code and contributions, inner sourcing
+* platforms: Kubernetes, Prometheus, Thanos, Grafana, OpenTelemetry, OpenSearch, Elasticsearch, Fluent
+* Amazon, Amazon China and Ubisoft on-premise cloud hosting
+* infra as code Terraform, Terragrunt and Operator pattern to manage cloud objects: toil reduction
+* relationship with observability software providers
+
+### Technical Lead (DevOps) at Cdiscount
+
+#### From 02/2019 to 05/2021
 
 ##### Missions
 Lead DevOps within the IT Customer Experience Department (120 software engineers) with the role of technical infrastructure manager. Scope of the department :
@@ -132,6 +161,8 @@ Development of an algorithm which allows to make text substitutions in order to 
 
 Date | Name | Issuing authority | Reference
 -----|------|-------------------|----------
+03/2022 | CKA: Certified Kubernetes Administrator | Linux Foundation | [LF-6v8ll4ppaz](https://www.credly.com/badges/2d722eac-2e7c-42c3-9696-8f528ef1b230)
+08/2021 | AWS Certified Cloud Practicioner | Amazon Web Services | [aws certified](https://www.credly.com/badges/3b29ad0a-9f36-4d74-8dfc-90e3bb7f6985)
 01/2020 | Certified Ethical Hacker | EC-Council | [ECC0785624139](https://aspen.eccouncil.org/VerifyBadge?&type=certification&a=Cf9l4Imb8Rwmmk8312qAA84bFpDndb6G23VB6JzSWjg=)
 04/2018 | TOGAF 9 Certified | The Open Group | [f12a95be-c8eb-4af8-a074-1acac4a0fedf](https://www.youracclaim.com/badges/f12a95be-c8eb-4af8-a074-1acac4a0fedf/linked_in_profile)
 04/2018 | TOGAF 9 Foundation | The Open Group | [2ed9a9fa-95f3-4822-a1ca-7ba22ae6e17a](https://www.youracclaim.com/badges/2ed9a9fa-95f3-4822-a1ca-7ba22ae6e17a/linked_in_profile)
@@ -152,7 +183,7 @@ Year | Diploma | Title | Mention | School
 
 #### From 10/2017 to today
 
-Member of the office as communication manager and federal diploma club coach issued by the French Cycling Federation.
+Member of the office of [SAM Cyclisme](https://www.samcyclisme.com/en-savoir-plus/encadrement-98707) as communication manager and federal diploma club coach issued by the French Cycling Federation.
 Organizational and logistical assistance on cycle racing, lottery, garage sale type events.
 Association law 1901.
 
