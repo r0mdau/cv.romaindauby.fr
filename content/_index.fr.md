@@ -9,6 +9,7 @@ title = "Romain Dauby Responsable technique, Architecte, CTO"
 {{< figure class="avatar" src="https://www.gravatar.com/avatar/586e9d363077c0a9572652c9f5a4fcf3" >}}
 
 Passionné des technologies de l'information en ligne, des systèmes distribués et des organisations humaines qui les opèrent.
+
 Avec mes 9 années d'expériences professionnelles, j'ai acquis une expertise des technologies web, à l'aise sur de multiples domaines : architecture, génie logiciel, ingénierie de fiabilité, systèmes distribués, sécurité, performance, administration systèmes et réseaux. Ma capacité à prendre du recule m'a permis de développer de solides compétences dans la gestion de projets complexes, gestion d'équipes de dévelopement logiciel, gestion de budgets et gestion produit.
 
 Mes hobbies: ancien entraîneur en cyclisme sur route et piste et pratique la natation, la course à pied et la randonnée en montagne.
@@ -201,8 +202,8 @@ Expérience très enrichissante de présidence d'une association loi 1901 durant
 Management d'équipe, répartition des charges, gestion de la comptabilité, de la communication et de la trésorerie.
 Organisation et gestion logistique de plusieurs weekends ski avec ~50 participants et weekends sportifs jusqu'à 250 participants répartis aux quatre coins de la France.
 
-## Bibliographie
+## Mon Top 3 livres
 
-* [The DevOps Handbook](https://itrevolution.com/the-devops-handbook/), IT Revolution, *by Gene Kim, Jez Humble, Patrick Debois, and John Willis*
 * [The Phoenix Project](https://itrevolution.com/the-phoenix-project/), IT Revolution, *by Gene Kim, Kevin Behr, and George Spafford*
-
+* [The Staff Engineer's path](https://www.oreilly.com/library/view/the-staff-engineers/9781098118723/), O'Reilly, *by Tanya Reilly*
+* [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/), Google, *edited by Betsy Beyer, Chris Jones, Jenifer Petoff & Niall Murphy*

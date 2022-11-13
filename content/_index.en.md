@@ -198,8 +198,8 @@ Very enriching experience as president of an association under the 1901 law.
 Team management, burden sharing, accounting, communication and cash management.
 Organization and logistical management of several ski weekends with ~50 participants and sports weekends up to 250 participants spread across France.
 
-## Bibliography
+## Top 3 Books
 
-* [The DevOps Handbook](https://itrevolution.com/the-devops-handbook/), IT Revolution, *by Gene Kim, Jez Humble, Patrick Debois, and John Willis*
 * [The Phoenix Project](https://itrevolution.com/the-phoenix-project/), IT Revolution, *by Gene Kim, Kevin Behr, and George Spafford*
-
+* [The Staff Engineer's path](https://www.oreilly.com/library/view/the-staff-engineers/9781098118723/), O'Reilly, *by Tanya Reilly*
+* [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/), Google, *edited by Betsy Beyer, Chris Jones, Jenifer Petoff & Niall Murphy*
