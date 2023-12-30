@@ -1,5 +1,5 @@
 +++
-title = "Romain Dauby Responsable technique, Architecte, CTO"
+title = "Romain Dauby Directeur technique, Architecte, CTO"
 +++
 
 [English version](https://cv.romaindauby.fr/en/)
@@ -8,88 +8,101 @@ title = "Romain Dauby Responsable technique, Architecte, CTO"
 
 {{< figure class="avatar" src="https://www.gravatar.com/avatar/586e9d363077c0a9572652c9f5a4fcf3" >}}
 
-Passionné des technologies de l'information en ligne, des systèmes distribués et des organisations humaines qui les opèrent.
+Leader en génie logiciel passionné par les systèmes en ligne. J'ai une riche expérience dans le b2b, le commerce électronique et les services en ligne dans l'industrie du jeu.
 
-Avec mes 9 années d'expériences professionnelles, j'ai acquis une expertise des technologies web, à l'aise sur de multiples domaines : architecture, génie logiciel, ingénierie de fiabilité, systèmes distribués, sécurité, performance, administration systèmes et réseaux. Ma capacité à prendre du recule m'a permis de développer de solides compétences dans la gestion de projets complexes, gestion d'équipes de dévelopement logiciel, gestion de budgets et gestion produit.
+Mon approche du leadership est ancrée dans la philosophie du leader-serviteur, donnant la priorité à l'autonomisation des équipes agiles pour développer des systèmes robustes et efficaces qui s'alignent sur les objectifs commerciaux clés.
 
-Mes hobbies: ancien entraîneur en cyclisme sur route et piste et pratique la natation, la course à pied et la randonnée en montagne.
+En ma qualité d'architecte "hands-on", je possède une expertise technique dans la conception et la gestion de systèmes distribués à grande échelle, d'infrastructures cloud et de pratiques DevSecOps. Mon objectif s'étend également à garantir une observabilité de haute qualité et à maintenir des opérations d'astreinte efficaces, essentielles à la fiabilité et à la sécurité du système.
+
+Côté loisirs : ancien entraîneur de cyclisme sur route et sur piste qui nage, court et randonne en montagne, parti découvrir le Canada en 2021.
 
 ## Expériences
 
-### Responsable Technique chez Ubisoft
+### Lead Technique, Département SRE, Ubisoft
 
 #### 06/2021 à aujourd'hui
 
-##### Missions
+##### Rôles
 
-Responsable technique des cinq équipes SRE au sein d'Ubisoft Online Services (34 ingénieurs logiciels / fiabilité de site). Notre mission est de bâtir des produits, des technologies et des pratiques pour observer, sécuriser, connecter, mettre à l'échelle les logiciels et les systèmes distribués. Périmètres techniques de chaque équipe :
-* logging, base de données, API Management
-* monitoring, métriques, alertes, dashboards, onCall
-* tracing, healthchecks, graphes des dépendances, frontend, gestion d'incident
-* blue team, dev outils de sécurité, DevSecOps, automatisation
-* green team, FinOps
+Responsable technique des quatres équipes SRE (Site Reliability Engineering) (34 ingénieurs logiciels ou fiabilité de site) au sein d'Ubisoft Online Services (800 employés, contexte international: Canada, France, Allemagne, Ukraine, Roumanie, Chine).
 
+Missions du département SRE: bâtir des produits, services, outils et des pratiques pour observer, sécuriser, connecter, mettre à l'échelle les logiciels et les systèmes distribués. Périmètres techniques de chaque équipe :
+* Logging, base de données, API Management, métriques éphémères.
+* Monitoring, métriques, alertes, dashboards, gestion d'incidents (onCall).
+* Tracing, healthchecks, graphes des dépendances, frontend.
+* Outils de sécurité, pratiques et pipelines DevSecOps, automatisation, FinOps.
 
 ##### Projets
-* responsable des réalisations, décisions et architectures techniques des équipes SRE, nos clients directs sont les développeurs des autres départements sur la plateforme online et parfois les productions de jeux
-* donner une vision technnologique sur 3 ans, impliquant des ingénieurs séniors, des gestionnaires et des directeurs
-* champion de la communauté des responsables techniques pour la direction Platform Services
-* reprise du périmètre technique des architectures en place permettant d'observer les systèmes distribués des équipes (ECS, EKS, on-prem k8s / VM)
-* création du comité d'architecture, reprise de la communauté des experts
-* construction des produits d'observabilité, nous unifion notre télémétrie derrière le projet OpenTelemetry, avec des contributions open-source
-* création communauté experts pour le réseau dans le cloud et hybride avec on-premise + Chine et mise en place de projets infra as code
-* construction d'outils pour collecter les données puis observer à travers des tableaux de bords le niveau de sécurité des logiciels (local fuzzing, SAST), les pilelines (Trivy, SonarQube) avec détection des secrets, et au runtime (AWS Security hub, in house SIEM, EDR)
-* évaluer les solutions du marché pour utiliser des services managés
+
+* Responsable des réalisations, décisions et architectures techniques des équipes SRE, nos clients directs sont les développeurs des autres départements sur la plateforme online et parfois les productions de jeux
+* Donner une vision technnologique sur 3 ans, impliquant des ingénieurs séniors, des gestionnaires et des directeurs
+* Construction de produits d'observabilité robustes et scalables, nous unifions notre collection et ingestion de télémétrie dans le projet OpenTelemetry, avec des contributions open-source
+  * crossplane/provider-aws
+  * open-telemetry/opentelemetry-collector-contrib
+  * prometheus/prometheus
+* IDS pour le réseau dans le cloud et hybride avec on-premise + Chine et mise en place de projets infra as code, géré par un groupe d'experts transverse.
+* Construction d'outils pour collecter les données puis observer à travers des tableaux de bords le niveau de sécurité des logiciels (local fuzzing, SAST), les pilelines (Trivy, SonarQube) avec détection des secrets, et au runtime (AWS Security hub, in house SIEM, EDR)
+
+##### Missions
+
+Leadership transversal:
+* Contribution pour la mise en place du Tech Board de l'organization Online Services (n+2 dep SRE), 800 employés. Objectif, revoir les architectures techniques en phase de design adhérent à nos principes conducteurs (un peu comme le cadre de travail AWS Well-Architected).
+* Lead communauté technique de la direction Platform Services (n+1 dep SRE), 120 employés. Maintient un pont de discussions et contributions transverses aux équipes.
+* Évaluer les solutions du marché pour utiliser des services managés, contact avec les entreprises externes.
+* Document d'architecture de décision (ADR) pour nos pratiques de développement, d'organisation du code et des contributions et inner sourcing.
+* Relation avec les départements internes Ubisoft et fournisseurs externes de logiciels d'observabilité, d'hébergement et de sécurité.
 
 ##### Compétences
-* développement logiciel en Go
-* document d'architecture de décision pour nos pratiques de développement, d'organisation du code et des contributions, inner sourcing
-* plateformes : Kubernetes, Prometheus, AlertManager, Thanos, Grafana, Tempo, Loki, Mimir, OpenTelemetry, OpenSearch, Elasticsearch, Fluentd
-* hébergement AWS, AWS China et Ubisoft on-premises
-* infra as code Terraform, Terragrunt et développement d'opérateurs kubernetes pour manager les objets du cloud : réduction du toil
-* relation avec les fournisseurs de logiciels d'observabilité
+
+* Plateformes: Kubernetes, Vault, Gitlab, Crossplane, Prometheus, AlertManager, Thanos, Grafana, Tempo, Loki, Mimir, OpenTelemetry, OpenSearch, Elasticsearch, Fluentd.
+* Hébergement: AWS, AWS China et Ubisoft on-premises.
+* Développement logiciel: Go.
+* Infra as code: Terraform, Terragrunt et développement d'opérateurs kubernetes pour manager les objets du cloud : réduction du toil.
 
 
-### Leader Technique DevOps chez Cdiscount
+### Lead Technique (DevOps),  Cdiscount
 
 #### 02/2019 au 05/2021
 
-##### Missions
+##### Rôles
 
-Lead DevOps au sein de la Direction IT Expérience Client (120 ingénieurs d'études) avec rôle de responsable technique infrastructure. Périmètre de la direction :
-* applications mobiles, site PC et site mobile [www.cdiscount.com](https://www.cdiscount.com)
-* tunnel de commandes: order.cdiscount.com
-* espace client: clients.cdiscount.com
-* gestion de la relation client (téléconsulting, après achat)
+Leader Technique au sein de la Direction IT Expérience Client (120 ingénieurs d'études) avec rôle de responsable technique infrastructure (pratiques DevOps). Périmètre de la direction :
+* Applications mobiles, site PC et site mobile [www.cdiscount.com](https://www.cdiscount.com).
+* Tunnel de commandes: [order.cdiscount.com](https://order.cdiscount.com).
+* Espace client: [clients.cdiscount.com](https://clients.cdiscount.com).
+* Gestion de la relation client (téléconsulting, après achat).
 
-J'ai aussi combiné un rôle d'ingénierie de fiabilité de site sur le parc Linux.
+En parallèle, j'ai mené un rôle de SRE (ingénierie de fiabilité de site) sur le parc Linux, essentiellement pour les astreintes.
 La production Cdiscount compte 5000 serveurs physiques répartis dans 2 datacentres en France, un CDN avec 6 points de présences, et des projets dans le cloud Azure.
 
 ##### Projets
-* migration architecture microservice du site mobile du cluster mesos marathon sur kubernetes (Java 8 -> 11, NodeJS 8 -> 12, Docker, Kubernetes, Prometheus, Elasticsearch)
-* automatisation complète des tirs de charges dans le cycle de déploiement des applications (Swagger codegen, jMeter, Azure DevOps)
-* R&D reverse-proxy capable de gérer + de 30k règles de redirections et de réécritures avec rechargement à chaud de la configuration via API (OpenResty, lua, c++)
-* automatiser le travail récurrent en développant des programmes en Go et en Python
-* décrire les architectures techniques et gérer le planning de capacité des infrastructures
-* maintenir et améliorer les pipelines de CICD pour les projets java, .net core, NodeJs et Go.
-* création d'un reverse proxy cache backend et reverse proxy cache sidecar afin d'absorber le load des périodes commerciales fortes du site
 
-##### Compétences
-* formation (+ webinars) des développeurs sur les aspects Ops, Perf et DevSecOps
-* performance continue et prémisses DevSecOps sur projets : Java (8, 10, 11), .net core (2.1, 3.1), NodeJS (12, 14, 15) : architectures microservices, kubernetes
-* construction et optimisation de pipelines CICD (as code) sur Azure Devops et Jenkins
-* IaaS cloud Azure avec Terraform
-* développement de features "Ops" de type observability, tracing logging metrics ; features "Perf" ; debug
-* troubleshooting incidents de production sur toute l'architecture, de CloudProtect (protection DDoS Acorus Networks - Volterra - F5) aux bases de données
-* recrutement profil DevOps (échelle entreprise)
-* astreinte N2 sur le parc Linux : administration système, debug architecture globale. Technologies : CDN (Varnish Nginx BotDetection), clusters Kubernetes (anciennement Mesos / Marathon), Ceph, Varnish, MongoDB, Cassandra, CouchBase, Elasticsearch, Prometheus (Thanos), RabbitMQ, Kafka, Mapr, MediaDelivery Platform.
-* gestionnaire communauté DevOps (échelle entreprise)
+* Relier les connaissances de l'équipe Plateforme avec mon département (SRE intégré).
+* Migration architecture microservice du site mobile du cluster mesos marathon sur kubernetes (Java 8 -> 11, NodeJS 8 -> 12, Docker, Kubernetes, Prometheus, Elasticsearch).
+* Automatisation complète des tests de charges dans le cycle de déploiement des applications (Swagger codegen, jMeter, Azure DevOps).
+* R&D et contribution: reverse-proxy capable de gérer + de 30k règles de redirections et de réécritures avec rechargement à chaud de la configuration via API (OpenResty, lua, c++).
+* Automatiser le travail récurrent en développant des programmes en Go et en Python.
+* Décrire les architectures techniques et gérer le planning de capacité des infrastructures.
+* Maintenir et améliorer les pipelines de CICD pour les projets java, .net core, NodeJs et Go.
+* Création d'un reverse proxy cache backend et reverse proxy cache sidecar afin d'absorber le load des périodes commerciales fortes du site.
 
-### Ingénieur Architecte chez Orange Business Services
+##### Missions
+
+* Formation (+ webinars) des développeurs sur les aspects Ops, Perf et DevSecOps.
+* Performance continue et prémisses DevSecOps sur projets : Java (8, 10, 11), .net core (2.1, 3.1), NodeJS (12, 14, 15) : architectures microservices, kubernetes.
+* Construction et optimisation de pipelines CICD (as code) sur Azure Devops et Jenkins.
+* IaaS cloud Azure avec Terraform.
+* Développement de features "Ops" de type observability, tracing logging metrics ; features "Perf" ; debug.
+* Troubleshooting incidents de production sur toute l'architecture, de CloudProtect (protection DDoS Acorus Networks - Volterra - F5) aux bases de données.
+* Recrutement profil DevOps (échelle entreprise).
+* Astreinte N2 sur le parc Linux : administration système, debug architecture globale. Technologies : CDN (Varnish Nginx BotDetection), clusters Kubernetes (anciennement Mesos / Marathon), Ceph, Varnish, MongoDB, Cassandra, CouchBase, Elasticsearch, Prometheus (Thanos), RabbitMQ, Kafka, Mapr, MediaDelivery Platform.
+* Gestionnaire communauté DevOps (échelle entreprise).
+
+### Ingénieur Architecte, Orange Business Services
 
 #### 07/2018 au 02/2019
 
-Ingénieur architecte à la DSI Orange Applications for Business (équipe de 30 collaborateurs).
+Ingénieur Architecte à la DSI Orange Applications for Business (équipe de 30 collaborateurs).
 
 ##### Missions
 Interconnecter les outils des directions métiers et ceux de la DSI au niveau des architectures : Application, Data et Infrastructure : modélisation.
@@ -102,39 +115,51 @@ Formation et montée en compétences des ingénieurs sur le produit de gestion d
 ##### Compétences
 DevOps, TOGAF, Git, Docker, VMware, Nginx, Debian, OWASP ZAP, jMeter, MySQL, SaltStack, PHP, Scrum, DDD, TDD, DAT
 
-### Ingénieur Développement et Production chez Orange Business Services
+### Ingénieur Développement et Production, Orange Business Services (OAB)
 
 #### 08/2015 au 07/2018
 
+#### Projets
+
+* Implémentation du processus Achat dans le service web de gestion des collaborateurs externes. Implémentation du processus de gestion (rôle manager) dans ce même service.
+* Développement du socle commun de l'industrialisation de la gestion des habilitations: IAM.
+* Mise en place d'un identifiant de corrélation généré à partir du premier reverse proxy de l'architecture microservices avec implémentation dans les librairies partagées afin de transmettre cet identifiant dans les couches de microservices. Visualisation et corrélation des logs dans des tableaux de bords Kibana. Principe du tracing dans des logs applicatifs.
+* Création de la elastic stack on-premises. Industrialisation avec DAT (documentation d'architecture technique) pour mise en production. Travaux revus et approuvés par l'ingénieur systèmes principal.
+* Industrialisation de notre pipeline de développement via Dockerfile, docker-compose, tests unitaires, mock bdd pour tests unitaires, tests intégration, essais sur tests de mutation, analyses SONAR, ORM Doctrine, architecture hexagonale, DDD, CICD jenkins et surtout pilotage du déploiement sur les environnements via branches git, (fork maison Gitflow) pour le projet de gestion des mouvements de collaborateurs.
+
 ##### Missions
-Améliorer les pratiques des développeurs et des administrateurs système au sein de l'équipe SI composée de 12 collaborateurs.
 
-Responsable technique de l'application de gestion des mouvements de collaborateurs et prestataires.
-Développement de logiciels dans une architecture microservices.
+Production d'outils, de formations et de processus pour améliorer les pratiques des développeurs et des administrateurs système au sein de l'équipe SI composée de 12 collaborateurs.
 
-Création d'un outil maison d'observabilité de type tracing. Avec un identifiant de corrélation généré à partir du premier reverse proxy de l'architecture microservices avec édition des librairies mutualisées (des microservices) afin de transmettre en intégrité cet identifiant. Avec corrélation des logs via des tableaux de bords kibana. Création de la elastic stack en local puis industrialisation + documentation d'architecture technique pour mise en production avec tampon de l'ingénieur système principal. (une sorte de MVP zipkin maison).
+Responsable technique de l'application de gestion des mouvements de collaborateurs et prestataires externes.
+Développement de logiciels dans une architecture microservices et applications cloud natives.
 
-Industrialisation avancée via dockerfiles, docker-compose, tests unitaires, mock bdd pour TU, tests intégration, essai sur tests mutation, analyses SONAR, ORM, architecture hexagonale, DDD, CICD jenkins et surtout pilotage du déploiement sur les environnements via branches git, (fork maison Gitflow) pour le projet de gestion des mouvements de collaborateurs.
-
-Formations régulières des ingénieurs sur mes travaux. Et force de proposition et parfois aMOA sur les projets de la DSI.
+Formations continues des collaborateurs sur mes travaux. Force de proposition pour les fonctionalités des projets et parfois aMOA sur les projets de la DSI.
 
 ##### Compétences
-Docker, PHP, MySQL, Nginx, Debian, Git, Jenkins, Sonar, Gitlab, Zend Framework, PHPUnit, Slim framework, Elasticsearch, Filebeat, Logstash, Grok, Kiban, Jira, DDD, TDD, DAT, Javascript, jQuery, Doctrine Framework, Bash
+Docker, PHP, MySQL, Nginx, Debian, Git, Jenkins, Sonar, Gitlab, Zend Framework, PHPUnit, Slim framework, Elasticsearch, Filebeat, Logstash, Grok, Kiban, Jira, DDD, TDD, DAT, Javascript, jQuery, Doctrine Framework, Bash, SSO, Shibboleth
 
-### Ingénieur d'Etudes du Système d'Information chez Orange Business Services
+### Ingénieur d'Etudes du Système d'Information (alternance), Orange Business Services (OAB/MBS)
 
 #### 09/2013 au 07/2015
 
-##### Missions
-Réalisation from scratch d'un projet web de gestion des mouvements de collaborateurs : software craftmanship.
-Etude approfondie du métier RH, du SIRH en entreprise et démonstration d'une application technique, technologique et organisation humaine.
+##### Projets
 
-Ce projet a permis de dégager plusieurs ETP dans les tâches pénibles des paperasses RH pour leur faire gagner en qualité dans le traitement de l'information et se concentrer sur des problématiques autour de l'humain dans l'entreprise et non de problématiques logicielles ne répondant pas bien à leur besoin.
+* Implémentation d'une base de données (modélisation) puis d'un service web de gestion des mouvements de collaborateurs.
+* Développement de fonctionnalités dans les services web internes à l'entreprise
+  * Intranet (PHP MySQL)
+  * Facturation (Java MySQL)
+  * SSO (Shibboleth)
+  * Jira custom workflows (Javascript)
+* Formations sur Docker, DevOps, Jenkins et Nginx données en interne
+
+##### Missions
+
+Démarrage, à partir de rien, du projet de gestion des mouvements de collaborateurs : pratiques de software craftmanship appliquées. Étude approfondie du métier RH, du SIRH en entreprise et démonstration d'une application technique, technologique et organisation humaine. Ce projet a permis de dégager 1.5 ETP par an en automatisant les processus de gestion des mouvements de personnel RH. Gain de qualité dans le traitement de l'information et a permis au RH de se concentrer sur des problématiques plus importante pour le personnel, qui sont peu automatisables.
 
 Forte montée en compétences sur DDD en PHP, Docker, Linux Debian, la sécurité logicielle et l'administration système.
-Premières formations données sur Docker et les avancées techniques et technologiques des projets construits à des collaborateurs ingénieurs.
 
-### Administrateur Systèmes et Réseaux chez Orange Business Services
+### Administrateur Systèmes et Réseaux (CDD puis alternance), Orange Business Services (MBS)
 
 #### 06/2012 au 08/2013
 
@@ -153,12 +178,12 @@ Ecriture de lignes directrices sur les API Rest de l'équipe et les façons de n
 
 #### 3 mois en 2011 et 2 mois en 2012
 
-##### Missions
-Développement essentiellement PHP et Javascript sur des sites internet.
+##### Projets / Missions
+Développement de sites internet, essentiellement PHP et Javascript.
 
-Création d'un module Prestashop afin de permettre d'héberger plusieurs boutiques et plusieurs comptes vendeur sur un même site prestashop projet Batzeko qui n'a malheureusement pas vu le jour étant prometteur.
+Création d'un module Prestashop afin de permettre d'héberger plusieurs boutiques et plusieurs comptes vendeur au sein d'un même site prestashop. Nom du projet: Batzeko.
 
-Développement de plusieurs site dynamiques avec création d'un mini framework / skelette pour un backoffice. Software craftmanship.
+Développement de plusieurs site dynamiques avec création d'un mini framework / skelette pour un backoffice.
 
 Petite structure, nous développons, mettons en production et monitorons les sites internet.
 
@@ -168,14 +193,15 @@ Développement d'un algorithme qui permet de faire des substitutions de texte af
 
 Date | Nom | Autorité de certification | Référence
 -----|-----|---------------------------|----------
+08/2023 | AWS Certified Solutions Architect – Associate | Amazon Web Services | [SAA-C03](https://www.credly.com/badges/c6ca23ee-4e20-4058-a7da-7c18d658505a)
 03/2022 | CKA: Certified Kubernetes Administrator | Linux Foundation | [LF-6v8ll4ppaz](https://www.credly.com/badges/2d722eac-2e7c-42c3-9696-8f528ef1b230)
-08/2021 | AWS Certified Cloud Practicioner | Amazon Web Services | [aws certified](https://www.credly.com/badges/3b29ad0a-9f36-4d74-8dfc-90e3bb7f6985)
-01/2020 | Certified Ethical Hacker | EC-Council | [ECC0785624139](https://aspen.eccouncil.org/VerifyBadge?&type=certification&a=Cf9l4Imb8Rwmmk8312qAA84bFpDndb6G23VB6JzSWjg=)
-04/2018 | TOGAF 9 Certified | The Open Group | [f12a95be-c8eb-4af8-a074-1acac4a0fedf](https://www.youracclaim.com/badges/f12a95be-c8eb-4af8-a074-1acac4a0fedf/linked_in_profile)
-04/2018 | TOGAF 9 Foundation | The Open Group | [2ed9a9fa-95f3-4822-a1ca-7ba22ae6e17a](https://www.youracclaim.com/badges/2ed9a9fa-95f3-4822-a1ca-7ba22ae6e17a/linked_in_profile)
+08/2021 | AWS Certified Cloud Practicioner | Amazon Web Services | [CLF-C02](https://www.credly.com/badges/3b29ad0a-9f36-4d74-8dfc-90e3bb7f6985)
+01/2020 | Certified Ethical Hacker | EC-Council | [ECC0785624139](https://aspen.eccouncil.org/VerifyBadge?type=certification&a=Cf9l4Imb8Rwmmk8312qAA84bFpDndb6G23VB6JzSWjg=)
+04/2018 | TOGAF 9 Certified | The Open Group | [f12a95be-c8eb-4af8-a074-1acac4a0fedf](https://www.credly.com/badges/f12a95be-c8eb-4af8-a074-1acac4a0fedf)
+04/2018 | TOGAF 9 Foundation | The Open Group | [2ed9a9fa-95f3-4822-a1ca-7ba22ae6e17a](https://www.credly.com/badges/2ed9a9fa-95f3-4822-a1ca-7ba22ae6e17a)
 06/2015 | Professionnal Scrum Master I | Scrum.org | [131790](https://www.scrum.org/user/131790)
 
-## Formation
+## Formations
 
 Année | Diplôme | Intitulé | Mention | Ecole
 ------|---------|----------|---------|-------
@@ -207,3 +233,4 @@ Organisation et gestion logistique de plusieurs weekends ski avec ~50 participan
 * [The Phoenix Project](https://itrevolution.com/the-phoenix-project/), IT Revolution, *by Gene Kim, Kevin Behr, and George Spafford*
 * [The Staff Engineer's path](https://www.oreilly.com/library/view/the-staff-engineers/9781098118723/), O'Reilly, *by Tanya Reilly*
 * [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/), Google, *edited by Betsy Beyer, Chris Jones, Jenifer Petoff & Niall Murphy*
+
