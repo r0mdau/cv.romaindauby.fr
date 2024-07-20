@@ -193,8 +193,9 @@ Development of an algorithm that allows text substitutions to be made in order t
 
 Date | Nom | Autorité de certification | Référence
 -----|-----|---------------------------|----------
+02/2024 | PCA: Prometheus Certified Associate | The Linux Foundation | [LF-u9onu4yriz](https://www.credly.com/badges/d4a45a4b-6cf8-497d-a942-9fba1ddf5fbc)
 08/2023 | AWS Certified Solutions Architect – Associate | Amazon Web Services | [SAA-C03](https://www.credly.com/badges/c6ca23ee-4e20-4058-a7da-7c18d658505a)
-03/2022 | CKA: Certified Kubernetes Administrator | Linux Foundation | [LF-6v8ll4ppaz](https://www.credly.com/badges/2d722eac-2e7c-42c3-9696-8f528ef1b230)
+03/2022 | CKA: Certified Kubernetes Administrator | The Linux Foundation | [LF-6v8ll4ppaz](https://www.credly.com/badges/2d722eac-2e7c-42c3-9696-8f528ef1b230)
 08/2021 | AWS Certified Cloud Practicioner | Amazon Web Services | [CLF-C02](https://www.credly.com/badges/3b29ad0a-9f36-4d74-8dfc-90e3bb7f6985)
 01/2020 | Certified Ethical Hacker | EC-Council | [ECC0785624139](https://aspen.eccouncil.org/VerifyBadge?type=certification&a=Cf9l4Imb8Rwmmk8312qAA84bFpDndb6G23VB6JzSWjg=)
 04/2018 | TOGAF 9 Certified | The Open Group | [f12a95be-c8eb-4af8-a074-1acac4a0fedf](https://www.credly.com/badges/f12a95be-c8eb-4af8-a074-1acac4a0fedf)
